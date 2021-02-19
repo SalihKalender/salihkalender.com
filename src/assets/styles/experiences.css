@@ -1,0 +1,149 @@
+.container {
+    height: 80vh;
+    padding: 80px 40px;
+  }
+  .header {
+    text-align: center;
+  }
+  .experiences {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: flex-start;
+  }
+  .exp-card {
+    flex-basis: 45%;
+    height: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+  }
+  .progress {
+    width: 50%;
+    height: 20px;
+    background-color: rgba(71, 71, 71,.25);
+    border-radius: 30px;
+  }
+  .point {
+    height: 100%;
+    border-radius: inherit;
+  }
+  .pnt-1 {
+    width: 90%;
+  }
+  .pnt-2 {
+    width: 70%;
+  }
+  .pnt-3 {
+    width: 60%;
+  }
+  .pnt-4 {
+    width: 30%;
+  }
+  .bg-1 {
+    background-color: #42b883;
+  }
+  .bg-2 {
+    background-color: #3c873a;
+  }
+  .bg-3 {
+    background-color: #e535ab;
+  }
+  .bg-4 {
+    background-color: #60dafb;
+  }
+  .exp-name {
+    font-size: 25px;
+    word-spacing: 4px;
+    font-weight: 300;
+  }
+  .width-1-enter-active {
+    animation-name: widthYuksel1;
+    animation-duration: 2s;
+  }
+  
+  @keyframes widthYuksel1 {
+    from {
+      width: 0;
+    }
+    to {
+      width: 90%
+    }
+  }
+  
+    .width-2-enter-active {
+    animation-name: widthYuksel2;
+    animation-duration: 2s;
+  }
+  @keyframes widthYuksel2 {
+    from {
+      width: 0;
+    }
+    to {
+      width: 70%
+    }
+  }
+    .width-3-enter-active {
+    animation-name: widthYuksel3;
+    animation-duration: 2s;
+  }
+  @keyframes widthYuksel3 {
+    from {
+      width: 0;
+    }
+    to {
+      width: 60%
+    }
+  }
+    .width-4-enter-active {
+    animation-name: widthYuksel4;
+    animation-duration: 2s;
+  }
+  @keyframes widthYuksel4 {
+    from {
+      width: 0;
+    }
+    to {
+      width: 30%
+    }
+  }
+  @media only screen and (max-width: 1145px) {
+    .exp-card {
+      flex-basis: 100%;
+    }
+  }
+  @media only screen and (max-width: 650px) {
+    .container {
+      padding: 5px 10px;
+    }
+    .header {
+      font-size: 35px;
+    }
+  }
+  @media only screen and (max-width: 500px) {
+    .progress {
+      width: 70%;
+    }
+    .header {
+      font-size: 30px;
+    }
+  }
+  @media only screen and (max-width: 400px) {
+    .header {
+      font-size: 25px;
+    }
+    .exp-name {
+      font-size: 20px;
+    }
+  }
+  @media only screen and (max-width: 400px) {
+    .header {
+      font-size: 20px;
+    }
+    .progress {
+      width: 85%;
+    }
+  }
