@@ -1,5 +1,8 @@
 # vue-website
 
+css codes are in the dist folder !!!
+
+
 ## Project setup
 ```
 npm install
