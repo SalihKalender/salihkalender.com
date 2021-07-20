@@ -1,0 +1,43 @@
+.infmtons {
+    position: relative;
+    flex-basis: 60%;
+}
+.header {
+    font-size: 47px;
+    font-weight: 300;
+    word-spacing: 4px;
+}
+
+.prginf {
+    margin-top: 50px;
+    font-size: 20px;
+    word-spacing: 4px;
+    font-weight: 300;
+    line-height: 1.8;
+    opacity: .7;
+}
+.p5-enter , .p7-enter , .p9-enter {
+    opacity: 0;
+}
+.p5-enter-active , .p7-enter-active , .p9-enter-active {
+    transition: opacity 1s;
+    animation-name: pleft;
+}
+.p5-enter-active {
+    animation-duration: 1s;
+}
+.p7-enter-active {
+    animation-duration: 1.5s;
+}
+.p9-enter-active {
+    animation-duration: 4s;
+}
+@keyframes pleft {
+    from {
+        transform: translateX(-100px);
+    }
+    to {
+        transform: translateX(0);
+    }
+}
+

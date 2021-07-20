@@ -1,0 +1,126 @@
+/* * FOOTER * */
+
+.footer {
+    position: absolute;
+    height: 20vh;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+}
+.foot-inf {
+    margin-bottom: 20px;
+    word-spacing: 4px;
+    letter-spacing: .5px;
+    font-size: 16px;
+    color: #642B73;
+    opacity: .4;
+}
+.foot-cards {
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    width: 610px;
+    border-top-left-radius: 5px;
+    background-color: rgba(0, 0, 0, .15);
+    padding: 10px;
+}
+
+.events {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+}
+.comming {
+    font-size: 20px;
+    font-weight: 400;
+    font-style: italic;
+    word-spacing: 2px;
+    position: relative;
+}
+.star {
+    margin-top: 5px;
+    z-index: 2;
+    font-weight: 100 !important;
+}
+.commings {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.cmg-evnt {
+    flex-basis: 25%;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+}
+.cmg-header {
+    font-size: 25px;
+    width: 100%;
+    font-weight: 300;
+    cursor: default;
+}
+.cm-1 {
+    color: #59C173;
+}
+.cm-2 {
+    color: #5D26C1;
+}
+.cm-3 {
+    color: #C6426E;
+}
+.cmg-brd {
+    width: 0;
+    height: 2.2px;
+    margin-top: 10px;
+    border-radius: 30px;
+    transition: all .1s;
+}
+.cmb-1 {
+    background-color: #59C173;
+    background: -webkit-linear-gradient(to left,#5D26C1,#59C173 );
+    background: linear-gradient(to left,#5D26C1,#59C173 );
+}
+.cmb-2 {
+    background-color: #5D26C1;
+    background: -webkit-linear-gradient(to left,#C6426E,#5D26C1 );
+    background: linear-gradient(to left,#C6426E,#5D26C1 );
+}
+.cmb-3 {
+    background-color: #C6426E;
+    background: -webkit-linear-gradient(to left,#642B73,#C6426E );
+    background: linear-gradient(to left,#642B73,#C6426E );
+}
+.cmg-header:hover ~ .cmg-brd {
+    width: 100%;
+    transition: all .1s;
+}
+.socials {
+    position: absolute;
+    left: 30px;
+    top: 0;
+    z-index: 5;
+}
+.socials a {
+    transition: all .15s;
+    margin-right: 7px;
+}
+.socials a{
+    color: #211f1f66;
+}
+.socials a:hover {
+    color: #211f1f;
+    transition: all .15s;
+}
+.socials a:active {
+    color: #211f1f;
+}
+.socials a i {
+    font-size: 30px;
+}

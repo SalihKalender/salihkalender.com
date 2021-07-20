@@ -1,0 +1,47 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    color: #fff;
+    font-family: 'Roboto', sans-serif !important;
+    overflow-x: hidden;
+    background: #59C173;
+    background: -webkit-linear-gradient(to right, #5D26C1, #a17fe0, #59C173);
+    background: linear-gradient(to right, #5D26C1, #a17fe0, #59C173);
+}
+#app {
+  height: 100vh;
+}
+/* * GENELLER * */
+ul {
+    list-style: none;
+}
+a {
+    text-decoration: none;
+}
+.fade-enter-active {
+  animation-name: fadeIn;
+  animation-duration: .3s;
+}
+.fade-leave-active {
+  animation-name: fadeOut;
+  animation-duration: .3s;
+}
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+@keyframes fadeOut {
+  from {
+    opacity: 1;
+  }
+  to {
+    opacity: 0;
+  }
+}
